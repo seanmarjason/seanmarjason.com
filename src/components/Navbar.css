@@ -1,0 +1,35 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 75px;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+#logo {
+  width: 20vw;
+  max-width: 100px;
+  margin-left: 20px;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 25px 10px 25px 0px;
+}
+
+.navlink {
+  color: #0D0D0D;
+  padding: 0 25px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

@@ -1,6 +1,6 @@
-# Title
+# Personal Portfolio for Sean Marjason
 
-TBD
+This project is intended to replace the current [seanmarjason.github.com](https://github.com/seanmarjason/seanmarjason.github.io) repository to deploy seanmarjason.com as a Single Page Application (SPA) using ReactJS, to support long term objectives to integrate with a blogging platform to rapidly deploy new content without editing code.
 
 ## Available Scripts
 
