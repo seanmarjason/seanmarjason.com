@@ -1,11 +1,20 @@
 import './App.css';
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Blog from './pages/Blog'
+import Contact from './pages/Contact'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Blog />
+      <Contact />
     </div>
   );
 }
