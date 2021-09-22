@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-image: url("./assets//Pattern_01-200w-25p.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
