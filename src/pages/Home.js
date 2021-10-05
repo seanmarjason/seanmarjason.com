@@ -2,6 +2,7 @@ import './pages.css'
 import './Home.css'
 import { Helmet } from 'react-helmet'
 import NavigationButton from '../components/NavigationButton/NavigationButton'
+import SocialMediaBar from '../components/SocialMediaBar/SocialMediaBar'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <div id="homeGraphic">
 
       </div>
+      <SocialMediaBar vertical />
     </div>
   );
 }

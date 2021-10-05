@@ -8,10 +8,15 @@
   font-size:calc(42px + 1.5vw);
   text-transform: uppercase;
   margin: 0;
+  letter-spacing: 10px;
 }
 
 #tagline {
   font-size:calc(8px + 0.5vw);
   letter-spacing: 4.5px;
   padding: 15px 0;
+}
+
+#socials {
+  margin-left: auto;
 }
