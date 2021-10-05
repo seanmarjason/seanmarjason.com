@@ -11,6 +11,7 @@ const navLinks = {
   Home: '#home',
   About: '#about',
   Projects: '#projects',
+  Blog: '#blog',
   Contact: '#contact'
 }
 
