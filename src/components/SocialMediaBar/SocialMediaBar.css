@@ -9,10 +9,20 @@
 
 #socials {
   position: fixed;
+  top: 50%;
   right: 40px;
+  transform: translate(0, -50%);
   display: flex;
+  margin-left: auto;
+  z-index: 9999;
 }
 
 .vertical {
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  #socials {
+    display: none;
+  }
 }

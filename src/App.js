@@ -6,6 +6,8 @@ import Projects from './pages/Projects'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Logo from './assets/SMLogo_Black.png'
+import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar'
+
 
 const navLinks = {
   Home: '#home',
@@ -24,6 +26,7 @@ function App() {
       <Projects />
       <Blog />
       <Contact />
+      <SocialMediaBar vertical />
     </div>
   );
 }

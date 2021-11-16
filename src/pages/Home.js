@@ -2,7 +2,6 @@ import './pages.css'
 import './Home.css'
 import { Helmet } from 'react-helmet'
 import NavigationButton from '../components/NavigationButton/NavigationButton'
-import SocialMediaBar from '../components/SocialMediaBar/SocialMediaBar'
 
 
 const Home = () => {
@@ -16,13 +15,11 @@ const Home = () => {
       <div id="headline">
         <h1 id="home" className="">Sean Marjason</h1>
         <p id="tagline">Web Developer | Analyst | Technologist</p>
-        <NavigationButton text="View Portfolio" link="#projects"/>
-        <NavigationButton text="Contact Me" link="#contact"/>
+        <div id="keylinks">
+          <NavigationButton text="View Portfolio" link="#projects"/>
+          <NavigationButton text="Contact Me" link="#contact"/>
+        </div>
       </div>
-      <div id="homeGraphic">
-
-      </div>
-      <SocialMediaBar vertical />
     </div>
   );
 }
