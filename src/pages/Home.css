@@ -1,7 +1,8 @@
 #headline {
   width: 80%;
   margin-bottom: 10vh;
-  align-items: auto;
+  position: absolute;
+  top: 35%;
 }
 
 #home {

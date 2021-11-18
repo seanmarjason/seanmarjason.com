@@ -1,0 +1,65 @@
+#about-container {
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 0 25px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 10vh 7.5vw;
+  margin: 0 auto;
+}
+
+#about-container>div {
+  width: 50%;
+}
+
+#about-images {
+  text-align: center;
+  height: 100%;
+}
+
+#about-images>img {
+  width: 80%;
+}
+
+#about-face {
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+#about-text {
+  line-height: 1.5em;
+  padding: 0 1vw;
+}
+
+#about-text p {
+  margin-bottom: 1.5em;
+}
+
+#about-text span {
+  color: #8A8A8A
+}
+
+#about-text>#quote {
+  margin: 3em 0 3em 0;
+}
+
+#quote q {
+  font-weight: bold;
+
+}
+
+@media (max-width: 992px) {
+  #about-container {
+    flex-direction: column;
+  }
+  #about-container>div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #about-container {
+    width: 100%;
+  }
+}
