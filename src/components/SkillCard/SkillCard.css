@@ -1,0 +1,46 @@
+.skill-container {
+  display: inline-block;
+  width: 25vw;
+  text-align: center;
+  margin: 10vh auto;
+}
+
+.skill-container p {
+  font-weight: 300;
+  line-height: 2em;
+}
+
+.skill-image-container {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.skill-image-container img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .skill-container {
+    margin: 5vh auto;
+    width: 50vw;
+  }
+
+  .skill-image-container {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-container {
+    width: 70vw;
+  }
+
+  .skill-image-container {
+    width: 60vw;
+    height: 60vw;
+  }
+}
