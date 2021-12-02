@@ -1,5 +1,4 @@
 import './pages.css'
-import './Home.css'
 import NavigationButton from '../components/NavigationButton/NavigationButton'
 
 

@@ -27,3 +27,47 @@ h3 {
     visibility: hidden;
   }
 }
+
+/* HOME */
+
+#headline {
+  width: 80%;
+  margin-bottom: 10vh;
+  position: absolute;
+  top: 35%;
+}
+
+#home {
+  font-family: 'Montserrat', sans-serif;
+  font-size:calc(18px + 3vw);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  letter-spacing: calc(1px + 1.5vw);
+}
+
+#tagline {
+  font-size:calc(8px + 0.5vw);
+  letter-spacing: 4.5px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#keylinks {
+  text-align: center;
+}
+
+/* ABOUT */
+
+#skillcards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 10vh 0;
+}
+
+@media (max-width: 992px) {
+  #skillcards {
+    flex-direction: column;
+  }
+}

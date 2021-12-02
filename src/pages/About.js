@@ -1,5 +1,4 @@
 import './pages.css';
-import './About.css';
 import AboutCard from '../components/AboutCard/AboutCard'
 import SkillCard from '../components/SkillCard/SkillCard'
 import DevelopmentImage from '../assets/altumcode-P2SkP_PXhlU-unsplash_square.jpg'
@@ -25,8 +24,8 @@ const skills = [
 ]
 
 const About = () =>
-    <div className="page">
-      <h3 id="about">About</h3>
+    <div id="about" className="page">
+      <h3>About</h3>
       <AboutCard />
       <div id="skillcards">
         {
