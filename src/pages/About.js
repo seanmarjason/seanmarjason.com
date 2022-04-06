@@ -31,7 +31,7 @@ const About = () =>
       <div id="skillcards">
         {
           skills.map(skill => 
-            <SkillCard title={skill.title} image={skill.image} text={skill.text}/>
+            <SkillCard title={skill.title} image={skill.image} text={skill.text} key={skill.title}/>
           )
         }
       </div>
