@@ -1,5 +1,5 @@
 import './App.css';
-import { Helmet } from 'react-helmet'
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -21,12 +21,15 @@ const navLinks = {
 function App() {
   return (
     <div className="App">
-      <Helmet>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>  
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/> 
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"></link>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>  
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/> 
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"></link>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
+        </Helmet>
+      </HelmetProvider>
       <Navbar navLinks={navLinks} logo={Logo}/>
       <Home />
       <About />

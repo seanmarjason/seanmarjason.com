@@ -3,3 +3,11 @@
   position: absolute;
   top: 30vh;
 }
+
+@media (max-width: 992px) {
+
+  #contact-form {
+    top: 15vh;
+  }
+
+}
