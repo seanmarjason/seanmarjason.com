@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect } from 'react';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
@@ -12,7 +11,6 @@ import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// AOS.init({ duration: 750 });
 
 const navLinks = {
   Home: '#home-page',
@@ -24,9 +22,7 @@ const navLinks = {
 
 function App() {
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  AOS.init();
 
   return (
     <div className="App">
@@ -40,7 +36,7 @@ function App() {
         </Helmet>
       </HelmetProvider>
       <Navbar navLinks={navLinks} logo={Logo}/>
-      <div data-aos="fade-up"><Home /></div>
+      <Home />
       <div data-aos="fade-up"><About /></div>
       <div data-aos="fade-up"><Projects /></div>
       <div data-aos="fade-up"><Contact /></div>
