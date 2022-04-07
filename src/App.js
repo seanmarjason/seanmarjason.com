@@ -40,7 +40,7 @@ function App() {
         </Helmet>
       </HelmetProvider>
       <Navbar navLinks={navLinks} logo={Logo}/>
-      <div data-aos="fade-up"><Home /></div>
+      <Home />
       <div data-aos="fade-up"><About /></div>
       <div data-aos="fade-up"><Projects /></div>
       <div data-aos="fade-up"><Contact /></div>
