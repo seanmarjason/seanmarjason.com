@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import './ContactForm.css';
 
-// const FORM_ENDPOINT = "https://public.herotofu.com/v1/983f05f0-b5e8-11ec-b4fe-2b9cbf782176"
-const FORM_ENDPOINT = "http://localhost:3010/" // For local testing
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/983f05f0-b5e8-11ec-b4fe-2b9cbf782176"
+// const FORM_ENDPOINT = "http://localhost:3010/" // For local testing
 
 const ContactForm = () => {
 
@@ -64,7 +65,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <>
       <form
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
@@ -72,7 +73,7 @@ const ContactForm = () => {
         target="_blank"
       >
         <div>
-          <label htmlFor="name">Your Name</label>
+          <label htmlFor="name">Name</label>
           <input 
             name="Name" 
             id="name" 
@@ -83,7 +84,7 @@ const ContactForm = () => {
           />
         </div>
         <div>
-          <label htmlFor="email">Your Email</label>
+          <label htmlFor="email">Email</label>
           <input
             name="Email" 
             id="email" 
@@ -103,7 +104,7 @@ const ContactForm = () => {
           />
         </div>
         <div>
-          <input type="submit" value="Send Message" />
+          <input id="form-submit-button" type="submit" value="Send Message" />
         </div>
       </form>
       { 
@@ -113,7 +114,7 @@ const ContactForm = () => {
           <div className="text-md">{status}</div>
         </div>
       }
-  </div>
+  </>
   )
 }
 
