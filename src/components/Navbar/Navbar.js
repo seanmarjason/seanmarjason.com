@@ -14,7 +14,7 @@ const Navbar = ({navLinks, logo}) =>
   <>
     <div id="navbar" className="navbar">
       <div id="logo">
-        <a href="../index.html">
+        <a href="/">
           <img src={logo} alt="SM Logo in Black"/>
         </a>
       </div>
