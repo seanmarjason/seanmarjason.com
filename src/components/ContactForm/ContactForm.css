@@ -10,15 +10,19 @@ form label {
 }
 
 form input, textarea{
-  width: 100%;
+  width: 95%;
+  height: 5vh;
   margin-bottom: 2.5vh;
-  padding: 1.5vh;
+  padding: 0 2.5%;
   border: 1px solid gray;
   border-radius: 10px;
+  touch-action: none;
 }
 
 form textarea {
-  height: 15vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  height: 20vh;
 }
 
 #form-submit-button {
@@ -31,6 +35,8 @@ form textarea {
   font-weight: bold;
   box-shadow: 0 3px 10px #00000075;
   cursor: pointer;
+  padding: 1.5vh 0;
+  height: 5vh;
 }
 
 #form-submit-button:hover {
@@ -39,4 +45,28 @@ form textarea {
 
 #form-submit-button:active {
   box-shadow: none;
+}
+
+@media (max-width: 992px) {
+
+  form div {
+    width: 80%;
+  }
+
+  #form-submit-button {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  form div {
+    width: 95%;
+  }
+
+  #form-submit-button {
+    width: 80%;
+  }
+
 }
