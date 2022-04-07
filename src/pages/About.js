@@ -25,13 +25,13 @@ const skills = [
 ]
 
 const About = () =>
-    <div className="page">
+    <div className="page" id="about-page">
       <h3 id="about">About</h3>
       <AboutCard />
       <div id="skillcards">
         {
           skills.map(skill => 
-            <SkillCard title={skill.title} image={skill.image} text={skill.text}/>
+            <SkillCard title={skill.title} image={skill.image} text={skill.text} key={skill.title}/>
           )
         }
       </div>

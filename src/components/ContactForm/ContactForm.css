@@ -1,0 +1,42 @@
+form div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  padding: 1vh;
+  font-weight: bold;
+}
+
+form input, textarea{
+  width: 100%;
+  margin-bottom: 2.5vh;
+  padding: 1.5vh;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+form textarea {
+  height: 15vh;
+}
+
+#form-submit-button {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 7.5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 3px 10px #00000075;
+  cursor: pointer;
+}
+
+#form-submit-button:hover {
+  background-color: #383838;
+}
+
+#form-submit-button:active {
+  box-shadow: none;
+}

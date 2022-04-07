@@ -5,7 +5,7 @@ import NavigationButton from '../components/NavigationButton/NavigationButton'
 
 const Home = () => {
   return(
-    <div id="homePage" className="page">
+    <div className="page" id="home-page">
       <div id="headline">
         <h1 id="home" className="">Sean Marjason</h1>
         <p id="tagline">Web Developer | Analyst | Technologist</p>

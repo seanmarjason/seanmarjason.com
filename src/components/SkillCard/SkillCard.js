@@ -1,8 +1,8 @@
 import './SkillCard.css';
 
 const SkillCard = ({title, image, text}) => 
-  <div class="skill-container">
-    <div class="skill-image-container">
+  <div className="skill-container">
+    <div className="skill-image-container">
       <img src={image} alt={`skill card for ${title}`}/>
     </div>
     <h4>{title}</h4>
