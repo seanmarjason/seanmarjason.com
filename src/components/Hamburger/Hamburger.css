@@ -2,6 +2,10 @@
 #burger {
   display: inline-block;
   cursor: pointer;
+  z-index: 1001;
+  position: absolute;
+  right: 25px;
+  top: 25px;
 }
 
 .bar1, .bar2, .bar3 {

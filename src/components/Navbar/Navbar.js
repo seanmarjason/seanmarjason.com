@@ -4,8 +4,10 @@ import Hamburger from '../Hamburger/Hamburger'
 const showHideMenu = () => {
   const menu = document.getElementById("menu")
   const menuStyle = getComputedStyle(menu)
-  menu.style.visibility = 
-    (menuStyle.visibility === "hidden" || menu.style.visibility === "hidden") ? "visible" : "hidden"
+  menu.style.right =
+    menuStyle.right === "-1000px" || menu.style.right === "-1000px"
+      ? "0"
+      : "-1000px"
 }
 
 const Navbar = ({navLinks, logo}) =>
@@ -21,7 +23,14 @@ const Navbar = ({navLinks, logo}) =>
         <div id="menu">
           { 
             Object.entries(navLinks).map(([heading, link], index) => 
-              <a key={index} className="navlink" href={link}>{heading}</a>
+              <a 
+                key={index}
+                className="navlink"
+                href={link}
+                onClick={showHideMenu}
+              >
+                {heading}
+              </a>
             )
           }
         </div>

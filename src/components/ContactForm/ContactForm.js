@@ -80,7 +80,6 @@ const ContactForm = () => {
             type="text" 
             value={form.name}
             onChange={(e) => handleChange('name', e.target.value)}
-            onClick={(e) => e.target.select()}
             required
           />
         </div>
@@ -92,7 +91,6 @@ const ContactForm = () => {
             type="email" 
             value={form.email}
             onChange={(e) => handleChange('email', e.target.value)}
-            onClick={(e) => e.target.select()}
             required  
           />
         </div>
@@ -102,7 +100,6 @@ const ContactForm = () => {
             name="message"
             value={form.message}
             onChange={(e) => handleChange('message', e.target.value)}
-            onClick={(e) => e.target.select()}
             required
           />
         </div>
