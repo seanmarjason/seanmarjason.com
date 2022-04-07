@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
-// import Projects from './pages/Projects'
+import Projects from './pages/Projects'
 // import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Logo from './assets/SMLogo_Black.png'
@@ -11,11 +11,11 @@ import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar'
 
 
 const navLinks = {
-  Home: '#home',
-  About: '#about',
-  // Projects: '#projects',
+  Home: '#home-page',
+  About: '#about-page',
+  Projects: '#projects-page',
   // Blog: '#blog',
-  Contact: '#contact'
+  Contact: '#contact-page'
 }
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       <Navbar navLinks={navLinks} logo={Logo}/>
       <Home />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Blog /> */}
       <Contact />
       <SocialMediaBar vertical />

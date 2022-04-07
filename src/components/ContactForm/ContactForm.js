@@ -53,7 +53,7 @@ const ContactForm = () => {
       if (response.status !== 200) {
         throw new Error(response.statusText);
       }
-      setStatus("We'll be in touch soon.")
+      setStatus("I'll be in touch soon.")
       return response.json();
     }
     catch (err) {

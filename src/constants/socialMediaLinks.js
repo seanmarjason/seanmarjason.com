@@ -6,7 +6,7 @@ import instagramIcon from '../assets/socialIcons/iconmonstr-instagram-11-240_bla
 export const socials = [
   {
     "title": "Email",
-    "link": "mailto:smarjason@outlook.com",
+    "link": "#contact",
     "image": emailIcon
   },
   {
