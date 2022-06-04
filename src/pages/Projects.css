@@ -1,3 +1,42 @@
 #projects-page {
   min-height: 75vh;
 }
+
+#project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.project-thumbnail {
+  width: 40vw;
+  height: 40vh;
+  position: relative;
+}
+
+.project-image-container {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+
+.project-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-tile {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  height: 20%;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.project-tile p {
+  font-weight: 300;
+}
