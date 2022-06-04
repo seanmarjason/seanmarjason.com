@@ -40,3 +40,17 @@
 .project-tile p {
   font-weight: 300;
 }
+
+@media (max-width: 992px) {
+
+  #project-links {
+    flex-direction: column;
+  }
+
+  .project-thumbnail {
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+  }
+
+}
