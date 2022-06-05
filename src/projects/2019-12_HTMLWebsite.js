@@ -6,6 +6,8 @@ const project = {
   date: 'December 2019',
   image: image,
   summary: 'My first attempt at an interactive website to learn the basics of html, css, and javascript',
+  link: 'https://seanmarjason-rawhtml.netlify.app/',
+  source: 'https://github.com/seanmarjason/seanmarjason.com_old',
   content: 
     <>
       <p>While I had already created a basic website using the "all powerful" Wordpress, I wanted to challenge myself to create my own site from scratch. Adding in the styles, interactions, and content that I WANT to include, rather than relying on generic templates.</p>
