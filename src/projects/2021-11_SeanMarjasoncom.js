@@ -1,6 +1,7 @@
 import image from './images/2021-11_SeanMarjasoncom.png'
 
 const project = {
+  path: '/personal-website',
   heading: 'My Personal Website',
   date: 'November 2021',
   image: image,

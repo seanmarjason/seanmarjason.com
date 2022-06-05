@@ -1,6 +1,7 @@
 import image from './images/2019-12_HTMLWebsite.png'
 
 const project = {
+  path: '/original-website',
   heading: 'Raw HTML Website',
   date: 'December 2019',
   image: image,
