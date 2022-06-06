@@ -10,9 +10,9 @@
 }
 
 .project-thumbnail {
-  width: 40vw;
+  width: 35vw;
   height: 38vh;
-  margin-bottom: 2vh;
+  margin: 2vh 1vw;
   position: relative;
 }
 

@@ -13,7 +13,7 @@ const Projects = () => {
             <div key={index} className="project-thumbnail">
               <Link to={project.path || '#'}>
                 <div className="project-tile">
-                  <h4>{project.heading}</h4>
+                  <h4>{project.heading} <span className="project-date">| {project.date}</span></h4>
                   <p>{project.summary}</p>
                 </div>
                 <div className="project-image-container">
