@@ -6,7 +6,7 @@ const project = {
   date: 'January 2021',
   image: image,
   summary: 'Progressing through introductions to javascript, this music analyzer was also built in p5.js, but applying more Object Oriented techniques',
-  link: '',
+  link: 'https://fluffy-cascaron-0dd0d0.netlify.app/',
   source: 'https://github.com/seanmarjason/MusicAnalyzer',
   content: 
   <>

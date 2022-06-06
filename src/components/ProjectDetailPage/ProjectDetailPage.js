@@ -1,5 +1,6 @@
 import './ProjectDetailPage.css';
 import Logo from '../../assets/SMLogo_Black.png'
+import NavigationButton from '../NavigationButton/NavigationButton';
 
 const ProjectDetailPage = ({ project }) =>
   <>
@@ -13,8 +14,8 @@ const ProjectDetailPage = ({ project }) =>
         {project.content}
       </div>
       <div className="project-detail-links">
-        {project.link && <a href={project.link} target="_blank" rel="noreferrer">View Project</a>}
-        {project.source && <a href={project.source} target="_blank" rel="noreferrer">View Source</a>}
+        {project.link && <NavigationButton text="View Project &#10138;" link={project.link} newTab/>}
+        {project.source && <NavigationButton text="View Source &#10100;&#10101;" link={project.source} newTab/>}
       </div>
     </div>
     <div className="project-detail-footer">
