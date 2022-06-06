@@ -1,7 +1,7 @@
 #contact-form {
   width: 100%;
   position: absolute;
-  top: 30vh;
+  top: 20vh;
 }
 
 @media (max-width: 992px) {

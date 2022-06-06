@@ -1,12 +1,29 @@
 import './pages.css';
 import './Projects.css';
-import comingSoon from '../assets/0005720_coming-soon-page_550.png'
+import projects from '../projects';
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return(
     <div className="page" id="projects-page">
       <h3 id="projects">Projects</h3>
-      <img className="coming-soon" src={comingSoon} alt="coming soon" />
+      <div id="project-links">
+        {
+          projects.map((project, index) => 
+            <div key={index} className="project-thumbnail">
+              <Link to={project.path || '#'}>
+                <div className="project-tile">
+                  <h4>{project.heading} <span className="project-date">| {project.date}</span></h4>
+                  <p>{project.summary}</p>
+                </div>
+                <div className="project-image-container">
+                  <img src={project.image} alt={project.heading}/>
+                </div>
+              </Link>
+            </div>
+          )
+        }
+      </div>
     </div>
   )
 }
