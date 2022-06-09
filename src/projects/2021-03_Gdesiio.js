@@ -1,4 +1,4 @@
-import image from './images/2021-03_Gdesiio.png'
+import image from './images/2021-03_Gdesi-io-website.jpg'
 import wireframes_web from './images/Wireframes_Web.png'
 import wireframes_mobile from './images/Wireframes_Mobile-Portrait.png'
 

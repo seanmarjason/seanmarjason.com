@@ -1,4 +1,4 @@
-import image from './images/2019-12_HTMLWebsite.png'
+import image from './images/2019-12_Sean-Marjason-personal-website-raw-html.jpg'
 
 const project = {
   path: '/original-website',

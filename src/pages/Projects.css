@@ -9,59 +9,11 @@
   padding-top: 10vh;
 }
 
-.project-thumbnail {
-  width: 35vw;
-  height: 38vh;
-  margin: 2vh 1vw;
-  position: relative;
-  box-shadow: 0 0 25px rgba(0,0,0,0.2);
-}
-
-.project-image-container {
-  width: 100%;
-  height: 70%;
-  text-align: center;
-}
-
-.project-thumbnail:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.05);
-  opacity: 0.8;
-}
-
-.project-thumbnail img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  background-color: black
-}
-
-.project-tile {
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
-  height: 20%;
-  font-size: 0.8rem;
-  text-align: center;
-  color: black;
-}
-
-.project-tile p {
-  font-weight: 300;
-  padding: 0 10px;
-}
-
 
 @media (max-width: 992px) {
 
   #project-links {
     flex-direction: column;
-  }
-
-  .project-thumbnail {
-    width: 80vw;
-    height: 50vh;
-    position: relative;
   }
 
 }

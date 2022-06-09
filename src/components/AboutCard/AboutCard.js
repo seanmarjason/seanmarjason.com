@@ -1,5 +1,5 @@
 import './AboutCard.css';
-import Face from '../../assets/Face-square.jpg';
+import Face from '../../assets/Sean-Marjason_profile-picture.jpg';
 
 const AboutCard = () => 
      <div id="about-container">

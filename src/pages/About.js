@@ -2,9 +2,9 @@ import './pages.css';
 import './About.css';
 import AboutCard from '../components/AboutCard/AboutCard'
 import SkillCard from '../components/SkillCard/SkillCard'
-import DevelopmentImage from '../assets/altumcode-P2SkP_PXhlU-unsplash_square.jpg'
-import DesignImage from '../assets/sigmund-4UGmm3WRUoQ-unsplash_square.jpg'
-import AnalysisImage from '../assets/startae-team-36Aai16fubc-unsplash_square.jpg'
+import DevelopmentImage from '../assets/Development-Skills_Laptop-with-code.jpg'
+import DesignImage from '../assets/Design-Skills_Wireframes-for-website.jpg'
+import AnalysisImage from '../assets/Business-Analysis-Skills_user-journey-with-post-it-notes.jpg'
 
 const skills = [
   {

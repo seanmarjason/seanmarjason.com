@@ -1,5 +1,5 @@
 import './ProjectDetailPage.css';
-import Logo from '../../assets/SMLogo_Black.png'
+import Logo from '../../assets/Sean-Marjason_Logo_Black.png'
 import NavigationButton from '../NavigationButton/NavigationButton';
 
 const ProjectDetailPage = ({ project }) =>
