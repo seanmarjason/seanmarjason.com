@@ -1,4 +1,4 @@
-import image from './images/2021-01_MusicAnalyzer.png'
+import image from './images/2021-01_Music-Analyzer-website.jpg'
 
 const project = {
   path: '/music-analyzer',

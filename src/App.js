@@ -1,7 +1,7 @@
 import './App.css';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import Navbar from './components/Navbar/Navbar'
-import Logo from './assets/SMLogo_Black.png'
+import Logo from './assets/Sean-Marjason_Logo_Black.png'
 import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar'
 import {
   BrowserRouter as Router,

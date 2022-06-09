@@ -1,4 +1,4 @@
-import image from './images/2020-10_GameProject.png'
+import image from './images/2020-10_Platform-game-project-website.jpg'
 
 const project = {
   path: '/game-project',

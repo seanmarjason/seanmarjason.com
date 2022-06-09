@@ -1,4 +1,4 @@
-import image from './images/2021-11_SeanMarjasoncom.png'
+import image from './images/2021-11_Sean-Marjason-personal-website.jpg'
 import designInspiration from './images/Design_Graphic.jpg'
 import seanmarjasonDesign from './images/seanmarjasoncom-designs.jpg'
 
