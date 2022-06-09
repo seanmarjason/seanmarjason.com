@@ -1,0 +1,51 @@
+
+.project-thumbnail {
+  width: 35vw;
+  min-height: 35vh;
+  margin: 2vh 1vw;
+  position: relative;
+  box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.project-thumbnail:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+  opacity: 0.8;
+}
+
+.project-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: black
+}
+
+.project-description {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: black;
+}
+
+.project-description * {
+  padding: 0 10px;
+}
+
+.project-description p {
+  font-weight: 300;
+}
+
+.project-image-container {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+
+  .project-thumbnail {
+    width: 80vw;
+    min-height: 50vh;
+    position: relative;
+  }
+
+}
