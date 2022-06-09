@@ -3,6 +3,7 @@
   width: 80vw;
   margin: 0 10vw;
   position: relative;
+  scroll-margin-top: 200px;
 }
 
 .hidden {

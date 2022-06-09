@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
 import { HomePage, navLinks } from './HomePage';
 import ProjectDetailPage from './components/ProjectDetailPage/ProjectDetailPage';
 import projects from './projects';
@@ -37,6 +38,7 @@ function App() {
       <SocialMediaBar vertical />
 
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           {

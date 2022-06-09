@@ -5,11 +5,11 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
 const navLinks = {
-  Home: '#home-page',
-  About: '#about-page',
-  Projects: '#projects-page',
-  // Blog: '#blog',
-  Contact: '#contact-page'
+  Home: '/#home-page',
+  About: '/#about-page',
+  Projects: '/#projects-page',
+  // Blog: '/#blog',
+  Contact: '/#contact-page'
 }
 
 const HomePage = () => 
