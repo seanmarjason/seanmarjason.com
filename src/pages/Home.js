@@ -8,7 +8,7 @@ const Home = () => {
     <div className="page" id="home-page">
       <div id="headline">
         <h1 id="home" className="">Sean Marjason</h1>
-        <p id="tagline">Web Developer | Analyst | Technologist</p>
+        <p id="tagline">Product Manager | Software Engineer | Technologist</p>
         <div id="keylinks">
           <NavigationButton text="View Portfolio" link="#projects"/>
           <NavigationButton text="Contact Me" link="#contact"/>

@@ -8,6 +8,11 @@ import AnalysisImage from '../assets/Business-Analysis-Skills_user-journey-with-
 
 const skills = [
   {
+    title: 'Product Analysis',
+    image: AnalysisImage,
+    text: 'Idea not fully formed yet? Know you need to put something together, but can\'t work out how to make it sustainable, valuable, or align with your user needs? Bringing years of experience in Business and Systems Analysis, I can help you to uncover user needs and organise them into contained stories ready to be refined and delivered.'
+  },
+  {
     title: 'Development',
     image: DevelopmentImage,
     text: 'Looking for a new website? Need something more complex than static content that you could do on Wix, Squarespace, or Wordpress? I can help you put together a lightweight website suiting your needs with market standard web frameworks (ReactJS, Node, AWS).'
@@ -16,11 +21,6 @@ const skills = [
     title: 'Design',
     image: DesignImage,
     text: 'Have an idea but not sure how to put together a product or service that will appeal to your users? Taking an iterative approach, I can help you put together mockups to test your idea, or to lay out your application ready for development using platforms easily consumed by your developers (Sketch, Invision Studio, Adobe XD)'
-  },
-  {
-    title: 'Analysis',
-    image: AnalysisImage,
-    text: 'Idea not fully formed yet? Know you need to put something together, but can\'t work out how to make it sustainable, valuable, or align with your user needs? Bringing years of experience in Business and Systems Analysis, I can help you to uncover user needs and organise them into contained stories ready to be refined and delivered.'
   },
 ]
 
