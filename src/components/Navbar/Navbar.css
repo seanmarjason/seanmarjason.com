@@ -4,14 +4,24 @@
   width: 100vw;
   height: 75px;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+  background: #ffffff;
 }
 
 #logo {
   width: 20vw;
   max-width: 100px;
   margin-left: 20px;
+}
+
+#logo #site-title {
+  position: absolute;
+  color: #000000;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 40px 20px 0px;
+  text-decoration: none;
 }
 
 #logo img {
@@ -23,7 +33,7 @@
   right: 0;
   top: 0;
   padding: 25px 40px 25px 0px;
-  width: 65%;
+  width: 40%;
   max-width: 480px;
   text-align: right;
 }
@@ -36,12 +46,12 @@
 .navlink {
   color: #0D0D0D;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   #menu {
     height: 100vh;
     top: 0;

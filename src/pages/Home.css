@@ -1,8 +1,8 @@
 #headline {
-  width: 100%;
-  margin-bottom: 10vh;
   position: absolute;
   top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 #home {
@@ -12,6 +12,7 @@
   text-align: center;
   margin: 0;
   letter-spacing: calc(1px + 1.5vw);
+  white-space: nowrap;
 }
 
 #tagline {
@@ -29,8 +30,7 @@
 .arrow{
   position: absolute;
   bottom: 20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left: 40%;
 }
 
 .arrow span{

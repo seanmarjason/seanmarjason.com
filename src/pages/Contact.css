@@ -1,7 +1,17 @@
 #contact-form {
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 20vh;
+}
+
+#contact-instruction {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact-form textarea {
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 992px) {

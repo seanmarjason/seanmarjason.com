@@ -1,5 +1,4 @@
 import './ProjectDetailPage.css';
-import Logo from '../../assets/Sean-Marjason_Logo_Black.png'
 import NavigationButton from '../NavigationButton/NavigationButton';
 
 const ProjectDetailPage = ({ project }) =>
@@ -19,9 +18,6 @@ const ProjectDetailPage = ({ project }) =>
       </div>
     </div>
     <div className="project-detail-footer">
-      <div id="logo">
-        <img src={Logo} alt="SM Logo in Black"/>
-      </div>
     </div>
   </>
 
