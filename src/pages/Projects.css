@@ -1,14 +1,51 @@
 #projects-page {
   min-height: 75vh;
+  background-color: #4e4e4e;
+}
+
+#project-buttons-container {
+  text-align: center;
+}
+
+.projects-button {
+  width: 200px;
+  padding: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  margin: 0;
+  border-radius: 0;
+}
+
+.projects-button:hover {
+  cursor: pointer;
+}
+
+.projects-button:disabled,
+.projects-button[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+  text-decoration: underline;
+  box-shadow: none;
+  cursor: default;
+}
+
+.project-description > * {
+  color: #ffffff;
+}
+
+.project-thumbnail:hover {
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 
 #project-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
-
 
 @media (max-width: 992px) {
 
