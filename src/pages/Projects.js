@@ -1,6 +1,7 @@
 import './pages.css';
 import './Projects.css';
-import projects from '../projects';
+import devProjects from '../projects/development';
+import productProjects from '../projects/product';
 import ProjectCard from '../components/ProjectCard/ProjectCard'
 
 const Projects = () => {
@@ -9,7 +10,12 @@ const Projects = () => {
       <h3 id="projects">Projects</h3>
       <div id="project-links">
         {
-          projects.map((project, index) => 
+          devProjects.map((project, index) => 
+            <ProjectCard project={project} key={index} />
+          )
+        }
+        {
+          productProjects.map((project, index) => 
             <ProjectCard project={project} key={index} />
           )
         }
