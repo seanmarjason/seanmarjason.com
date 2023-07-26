@@ -23,7 +23,7 @@
   display: block;
 }
 
-h3 {
+.page > h3 {
   visibility: hidden;
 }
 
