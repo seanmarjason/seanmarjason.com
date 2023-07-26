@@ -55,19 +55,20 @@
   #menu {
     height: 100vh;
     top: 0;
+    padding-top: 10vh;
     right: -1000px;
     width: 60vw;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 30vh;
     align-items: center;
-    background-color: #fafafa;
-    opacity: 0.95;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 100px rgba(0,0,0,0.7);
     position: absolute;
   }
   .navlink {
     padding: 25px 25px;
-    width: 50%;
+    width: 60%;
     text-align: center;
     border-bottom: 1px solid grey;
   }
