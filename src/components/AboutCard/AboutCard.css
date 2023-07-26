@@ -1,12 +1,11 @@
 #about-container {
-  width: 80%;
-  height: 80%;
-  box-shadow: 0 0 25px rgba(0,0,0,0.2);
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
   padding: 10vh 7.5vw;
-  margin: 0 auto;
+  width: 100vw;
+  background-color: #4e4e4e;
+  margin: 0;
 }
 
 #about-container>div {
@@ -30,6 +29,7 @@
 #about-text {
   line-height: 1.5em;
   padding: 0 1vw;
+  color: #ffffff
 }
 
 #about-text p {
@@ -37,7 +37,7 @@
 }
 
 #about-text span {
-  color: #8A8A8A
+  color: #a0a0a0
 }
 
 #about-text>#quote {

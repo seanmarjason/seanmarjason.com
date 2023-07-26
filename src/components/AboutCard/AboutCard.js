@@ -10,7 +10,7 @@ const AboutCard = () =>
         <p>
           <strong>Hello World!</strong><br />
           My name is <strong>Sean Marjason</strong> <span>&</span><br />
-          I’m a <strong>Product Manager</strong> <span>&</span> <strong>Software Engineer</strong><br />
+          I'm a <strong>Product Person</strong> <span>&</span> <strong>Software Engineer</strong><br />
           <span>currently based in London, UK</span>
         </p>
         <p id="quote">
@@ -21,27 +21,13 @@ const AboutCard = () =>
         </p>
 
         <p>
-          I've spent most of my career analysing businesses, understanding their needs, and 
-          managing the successful delivery of bespoke digital solutions to improve how we 
-          work together and deliver to customers.
-        </p>
-
-        <p>
-          My skillset used to be full of asking the right questions, and refining my understanding 
-          of a business need into something that can be reflected in software.
-        </p>
-
-        <p>
-          Recently though I've taken that a step further. <u>Now, I can reflect those needs in scalable, testable code</u>.
-        </p>
-        <p>
-          I build platforms, products, and applications to <strong>invoke change </strong>
+          I build platforms, products, applications to <strong>invoke change </strong>
           and <strong>solve problems</strong>. Sometimes these are <i>simple</i> problems, 
           sometimes they are <i>known</i>, but sometimes they are 
           <i> novel</i>, <i>complex</i>, and <strong>exciting</strong>.
         </p>
         <p>
-          Have a look at some of my work below, and if you're interested in working with me, drop me a line on your preferred channel.
+          Browse some of my work below, and if you're interested in working with me, drop me a line on your preferred channel.
         </p>
       </div>
     </div>

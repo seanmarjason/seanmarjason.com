@@ -3,6 +3,7 @@
   width: 25vw;
   text-align: center;
   margin: 2.5vh auto;
+  min-height: 650px;
 }
 
 .skill-container p {

@@ -1,7 +1,7 @@
 #skillcards {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   margin: 10vh 0;
 }
 

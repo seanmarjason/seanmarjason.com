@@ -1,9 +1,13 @@
 .page {
   min-height: 100vh;
-  width: 80vw;
-  margin: 0 10vw;
+  width: 100vw;
   position: relative;
   scroll-margin-top: 200px;
+}
+
+.page > * {
+  padding: 0 10vw;
+  width: 80vw;
 }
 
 .hidden {
@@ -19,14 +23,8 @@
   display: block;
 }
 
-h3 {
-  position: absolute;
-  text-align: left;
-  z-index: 100;
-  margin: 20px 0;
-  font-size: 3.5em;
-  font-weight: normal;
-  letter-spacing: 0.25em;
+.page > h3 {
+  visibility: hidden;
 }
 
 @media (max-width: 992px) {

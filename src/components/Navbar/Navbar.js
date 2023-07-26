@@ -10,12 +10,12 @@ const showHideMenu = () => {
       : "-1000px"
 }
 
-const Navbar = ({navLinks, logo}) =>
+const Navbar = ({navLinks}) =>
   <>
     <div id="navbar" className="navbar">
       <div id="logo">
-        <a href="/">
-          <img src={logo} alt="SM Logo in Black"/>
+        <a id="site-title" href="/">
+          Sean Marjason
         </a>
       </div>
       <div id="menuContainer">

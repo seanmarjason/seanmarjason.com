@@ -4,9 +4,8 @@ form div {
 }
 
 form label {
-  display: block;
+  display: none;
   padding: 1vh;
-  font-weight: bold;
 }
 
 form input, textarea{
@@ -15,7 +14,6 @@ form input, textarea{
   margin-bottom: 2.5vh;
   padding: 0 2.5%;
   border: 1px solid gray;
-  border-radius: 10px;
   touch-action: none;
 }
 
@@ -29,7 +27,6 @@ form textarea {
   width: 30%;
   display: block;
   margin: 0 auto;
-  border-radius: 7.5px;
   background-color: #000000;
   color: #ffffff;
   font-weight: bold;
