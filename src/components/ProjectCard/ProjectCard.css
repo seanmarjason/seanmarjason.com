@@ -10,6 +10,8 @@
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.05);
   opacity: 0.8;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 
 .project-thumbnail img {
@@ -42,7 +44,7 @@
 @media (max-width: 992px) {
 
   .project-thumbnail {
-    width: 80vw;
+    width: 75vw;
     min-height: 50vh;
     position: relative;
   }
