@@ -36,11 +36,6 @@
   color: #ffffff;
 }
 
-.project-thumbnail:hover {
-  box-shadow: 0 0 50px rgba(0,0,0,0.5);
-  text-decoration: none;
-}
-
 #project-links {
   display: flex;
   flex-wrap: wrap;
